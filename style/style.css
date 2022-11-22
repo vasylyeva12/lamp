@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 70%;
+    margin: auto;
+}
+
+.header-wrapper {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-icon:not(:last-child) {
+    margin-right: 55px;
+}
+.intro {
+    background-color: #4fbfa5;
+    padding: 25px 0 60px;
+}
+.intro-nav {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px;
+
+  
+}
+.nav-link {
+    font-size: 18px;
+    font-style: italic;
+    color: white;
+}
+
+.nav-link:last-child {
+    background-color: white;
+    padding: 10px 50px;
+    color: black;
+}
+.intro-info {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+.intro-img {
+    width: 60%;
+}
+.intro-text {
+    width: 30%;
+}
+.intro-title {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 48px;
+}
+.intro-descr {
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.intro-btn {
+    padding: 15px 25px;
+    background-color: #00868a;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+}
+
+/* Блок с актуальными предложениями */
+.current-offers{
+    font-family: 'ABeeZee';
+    font-style: italic;
+    margin-bottom: 128px;
+
+}
+.offers-title {
+text-align: center;
+font-size: 48px;
+color: #00868A;
+margin-top: 146px;
+margin-bottom: 60px;
+}
+
+.current-offers-wrapper {
+width: 70%;
+margin: auto;
+display: flex;
+justify-content: space-between;
+
+}
+
+.offers-item {
+    padding-right: 24px;
+}
+.offers-item-img {
+display: block;
+}
+.offers-item-wrapper {
+background-color: #00868A;
+display: flex;
+justify-content: space-evenly;
+padding-top: 25px;
+padding-left: 30px;
+padding-bottom: 25px;
+
+}
+.offers-item-title {
+font-size: 21px;
+color: white;
+width: 60%;
+}
+
+.footer-wrapper {
+width: 70%;
+margin: auto;
+display: flex;
+justify-content: end;  
+
+}
+.footer-icon:not(:last-child) {
+ margin-right: 55px; 
+   
+}
